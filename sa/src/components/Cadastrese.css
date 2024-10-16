@@ -20,11 +20,12 @@ body {
 
 .container-cadastrese {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .espacamento {
     padding: 1.9rem;
+    
 }
 
 .etapa1 {
