@@ -1,11 +1,16 @@
 import React from 'react';
 import './Cadastrese.css';
+import Voltar from '../assets/images/Voltar.png'
+import Seta from '../assets/images/seta.png'
 
 function Cadastrese() {
   return (
     <div className="esquerda-cadastrese">
       <div className='espacamento'>
-        <h1 className='poppins-semibold'>Cadastre-se</h1>
+        <div className='cabecalho-cadastro'>
+        <h1 className='cadastre-se'>Cadastre-se</h1>
+        <img className='botao-voltar' src={Voltar} alt="Botão voltar" />
+        </div>
         <p>Torne sua vida fácil</p>
         <h2 className='etapa1'>1 - Insira seus dados</h2>
 

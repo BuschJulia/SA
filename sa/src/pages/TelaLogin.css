@@ -93,5 +93,6 @@ border: 2px solid rgba(0, 0, 0, 0.14);
 background: #FFF;
 backdrop-filter: blur(54.650001525878906px);
 filter: drop-shadow(30px 30px rgba(217, 217, 217, 0.28));
-
+display: flex;
+justify-content: inherit;
 }

@@ -20,7 +20,7 @@ body {
 
 .container-cadastrese {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .espacamento {
@@ -38,6 +38,10 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 12px; /* 66.667% */
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .container-inputs,
@@ -52,4 +56,23 @@ body {
 .input {
     width: 419px;
     height: 52px;
+}
+
+.cabecalho-cadastro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: initial;
+    gap: 37.5rem
+}
+
+.container p {
+    display: flex;
+    margin: 1rem;
+}
+
+.cadastre-se {
+    display: flex;
+    margin: 1rem;
 }
