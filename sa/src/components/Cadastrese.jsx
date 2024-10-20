@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cadastrese.css';
+import styles from './Cadastrese.css.module';
 import Voltar from '../assets/images/Voltar.png'
 import Seta from '../assets/images/seta.png'
 

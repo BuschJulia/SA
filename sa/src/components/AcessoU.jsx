@@ -1,5 +1,5 @@
 import React from 'react';
-import './AcessoU.css';
+import styles from './AcessoU.css.module';
 import Voltar from '../assets/images/Voltar.png'
 
 function AcessoU() {

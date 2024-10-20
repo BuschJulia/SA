@@ -8,6 +8,9 @@ import AcessoU from '../components/AcessoU';
 import SerParceiro from '../components/SerParceiro';
 import Cadastro from '../components/Cadastro';
 import Cadastrese from '../components/Cadastrese';
+import CadastroM1 from '../components/CadastroM1';
+import CadastroM2 from '../components/CadastroM2';
+import CadastroM3 from '../components/CadastroM3';
 
 
 export function TelaLogin() {
@@ -16,7 +19,7 @@ export function TelaLogin() {
             <Navbar />
             <div className="container">
                 <img className="direita" src={Cover} alt="" />
-                <Cadastrese/>
+                < SerParceiro/>
             </div>
         </div>
     );
