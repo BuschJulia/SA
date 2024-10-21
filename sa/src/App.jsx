@@ -1,10 +1,10 @@
-import { TelaLogin } from './pages/TelaLogin'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>
-      <TelaLogin/>
+      <Home/>
     </>
   )
 }

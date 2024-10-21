@@ -1,7 +1,6 @@
 import React from 'react';
-import styles from './Cadastrese.css.module';
+import './Cadastrese.css';
 import Voltar from '../assets/images/Voltar.png'
-import Seta from '../assets/images/seta.png'
 
 function Cadastrese() {
   return (
