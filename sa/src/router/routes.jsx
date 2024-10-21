@@ -1,13 +1,16 @@
-import { createBrowserRouter } from "react-router-dom"; 
-import TelaLogin from "../pages/TelaLogin";
-import Cadastrese from '../components/Cadastrese';
 
-const router = createBrowserRouter([
-    {path: "/", element: <TelaLogin />},
-    {path: "/cadastro", element: <Cadastrese />},
-    {path: "/generica", element: <Generica />},
-    {path: "/final", element: <Final />},
-    {path: "/ornitorrinco", element: <Ornitorrinco />},
-])
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import TelaLogin from '../pages/TelaLogin';
 
-export default router;
+const AppRoutes = () => {
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<TelaLogin />} />
+            </Routes>
+        </Router>
+    );
+};
+
+export default AppRoutes;
