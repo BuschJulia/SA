@@ -1,3 +1,23 @@
+.esquerdaAcesso{
+    width: 590px;
+    height: 574px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.14);
+    background: #FFF;
+    backdrop-filter: blur(54.650001525878906px);
+    filter: drop-shadow(30px 30px rgba(217, 217, 217, 0.28));
+    display: flex;
+    justify-content: center;
+}
+
+.container-inputsAcesso{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
 .container-inputs {
     display: flex;
     flex-direction: column;

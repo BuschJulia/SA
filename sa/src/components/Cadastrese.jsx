@@ -32,7 +32,7 @@ function Cadastrese() {
             <label className="label">Senha</label>
             <input type="password" className="input" />
 
-            <button className='acessar'>Acessar</button>
+            <button className='acessarCadastro'>Acessar</button>
           </div>
         </div>
       </div>

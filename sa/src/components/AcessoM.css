@@ -1,4 +1,5 @@
-.continue {
+.continuar {
+    align-items: center;
     width: 416px;
     height: 56px;
     flex-shrink: 0;
@@ -12,9 +13,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: 12px;
-    display: block;
-    justify-content: center;
-    /* 75% */
+    margin-top: 4.3rem;
+    padding: 1rem;
 }
 
 .abrir-conta {
@@ -34,11 +34,12 @@
     /* 75% */
 }
 
-.espacamento {
+.espacamento-acessoM {
     padding: 3.5rem;
 }
 
 .informacao {
+    border: none;
     width: 360px;
     height: 13px;
     flex-shrink: 0;
@@ -66,5 +67,25 @@
     font-style: normal;
     font-weight: 700;
     line-height: 12px;
+    padding: 0.51rem;
     /* 75% */
+}
+
+.cabecalho-acessoM {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: initial;
+    gap: 12.2rem
+}
+
+.container-botoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin: 1.123rem;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
 }

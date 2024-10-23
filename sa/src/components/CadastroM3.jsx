@@ -12,7 +12,7 @@ function CadastroM3() {
         return (
           <div className="esquerda-cadastrese">
             <div className='espacamento'>
-              <div className='cabecalho-cadastro'>
+              <div className='cabecalho-cadastroM'>
                 <h1 className='cabecalho'>Terceira Etapa do Cadastro</h1>
                 <img className='botao-voltar' src={Voltar} alt="Botão voltar" />
               </div>

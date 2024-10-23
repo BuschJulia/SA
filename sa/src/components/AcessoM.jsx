@@ -12,16 +12,16 @@ function AcessoM() {
             case 'acessom':
                 return (
                     <div className="esquerda login">
-                        <div className='espacamento'>
-                            <div className='cabecalho-acesso'>
+                        <div className='espacamento-acessoM'>
+                            <div className='cabecalho-acessoM'>
                                 <h1 className='acesso-h1'>Acesse Fácil</h1>
                                 <img className='botao-voltar' src={Voltar} alt="Botão voltar" />
                             </div>
 
 
                             <div className="container-inputs">
-                            <label className="informacao">Qual informação você quer usar?</label>
-                            <select className="input-select">
+                                <label className="informacao">Qual informação você quer usar?</label>
+                                <select className="input-select">
                                     <option value="" disabled selected>Selecione</option>
                                     <option value="cpf">CPF</option>
                                     <option value="cnpj">CNPJ</option>
@@ -29,11 +29,14 @@ function AcessoM() {
                                     <option value="email">Email</option>
                                 </select>
 
-
                                 <span className='Span'>Selecione uma informação</span>
-                                <button className='continue' onClick={() => setPagina('loginmercado')}>Continuar</button>
-                                <button className='abrir-conta' onClick={() => setPagina('logindois')}>Abrir conta</button>
+
+                                <div className="container-botoes">
+                                    <button className='continuar' onClick={() => setPagina('loginmercado')}>Continuar</button>
+                                    <button className='abrir-conta' onClick={() => setPagina('logindois')}>Abrir conta</button>
+                                </div>
                             </div>
+
                         </div>
                     </div >
                 );

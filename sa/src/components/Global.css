@@ -146,3 +146,13 @@ body {
 .paragrafo-verde {
     display: flex;
 }
+
+.mercado-etapas {
+    color: var(--Azul-Principal, #0C194E);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+}

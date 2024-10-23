@@ -1,17 +1,17 @@
 import React from 'react';
-import './AcessoU.css';
+import './LoginMercado.css';
 import Voltar from '../assets/images/Voltar.png'
 
 function AcessoU() {
   return (
-    <div className="esquerda login">
+    <div className="esquerdaAcesso loginM">
       <div className='espacamento'>
       <div className='cabecalho-acesso'>
       <h1 className='poppins-semibold'>Acesse Fácil</h1>
       <img className='botao-voltar' src={Voltar} alt="Botão voltar" />
       </div>
 
-      <div className="container-inputs">
+      <div className="container-inputsM">
         <label className="label">CPF</label>
         <input type="text" className="input" />
         

@@ -4,14 +4,14 @@ import Voltar from '../assets/images/Voltar.png'
 
 function AcessoU() {
   return (
-    <div className="esquerda login">
+    <div className="esquerdaAcesso login">
       <div className='espacamento'>
       <div className='cabecalho-acesso'>
       <h1 className='poppins-semibold'>Acesse Fácil</h1>
       <img className='botao-voltar' src={Voltar} alt="Botão voltar" />
       </div>
 
-      <div className="container-inputs">
+      <div className="container-inputsAcesso">
         <label className="label">CPF</label>
         <input type="text" className="input" />
         
